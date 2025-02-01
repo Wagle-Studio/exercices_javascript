@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./../assets/styles/global.css" />
+    <link rel="stylesheet" href="./../assets/styles/app.css" />
+    <link rel="stylesheet" href="./../assets/styles/exercice.css" />
+    <title>06 DOM 2</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="appExerciceHeader">
+        <svg
+          stroke="currentColor"
+          fill="currentColor"
+          stroke-width="0"
+          viewBox="0 0 24 24"
+        >
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"></path>
+        </svg>
+        <a href="/">Retour à l'accueil</a>
+      </div>
+      <article class="exercicePlayground">
+        <div class="exerciceHeader">
+          <div class="exerciceToolbar">
+            <div class="exerciceToolbarLeftboxStorage">
+              <h1>06 DOM 2</h1>
+            </div>
+            <a href="correction/index.html" class="button"
+              >Voir la correction</a
+            >
+          </div>
+          <div>
+            <p>
+              Écouter un évènement, logique algorithmique et intéraction avec le
+              DOM
+            </p>
+          </div>
+        </div>
+        <ul class="exerciceList">
+          <li>
+            <section class="exercice">
+              <h2 class="exerciceTitle">Exercice 1</h2>
+              <div class="exerciceboxStorage">
+                <div class="form">
+                  <p id="infoExo1"></p>
+                  <div class="inputboxStorage">
+                    <label for="phone">Saisir un model </label>
+                    <select name="phone" id="phone">
+                      <option value="iphone_13">Iphone 13</option>
+                      <option value="iphone_14">Iphone 14</option>
+                      <option value="samsung_s14">Samsung s14</option>
+                      <option value="samsung_s15">Samsung s15</option>
+                      <option value="xiaomi_note_10">Xiaomi note 10</option>
+                      <option value="xiaomi_pixel_6">Xiaomi pixel 6</option>
+                    </select>
+                  </div>
+                  <button class="button" id="productSearchButton">
+                    Rechercher
+                  </button>
+                </div>
+              </div>
+            </section>
+          </li>
+          <li>
+            <section class="exercice">
+              <h2 class="exerciceTitle">Exercice 2</h2>
+              <div class="exerciceboxStorage">
+                <div class="form">
+                  <p id="errorExo2" class="errorMsg"></p>
+                  <p id="successExo2" class="successMsg"></p>
+                  <div class="inputboxStorage">
+                    <label for="email">Adresse email</label>
+                    <input type="text" name="email" id="email" />
+                  </div>
+                  <div class="inputboxStorage">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" name="password" id="password" />
+                  </div>
+                  <button class="button" id="signInButton">Me connecter</button>
+                </div>
+              </div>
+            </section>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

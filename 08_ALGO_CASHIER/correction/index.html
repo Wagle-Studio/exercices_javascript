@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./../../assets/styles/global.css" />
     <link rel="stylesheet" href="./../../assets/styles/app.css" />
     <link rel="stylesheet" href="./../../assets/styles/exercice.css" />
-    <title>00 Boucle 0 - correction</title>
+    <link rel="stylesheet" href="./../assets/style.css" />
+    <title>08 Algo cashier - correction</title>
   </head>
 
   <body>
@@ -28,18 +29,28 @@
         <div class="exerciceHeader">
           <div class="exerciceToolbar">
             <div class="exerciceToolbarLeftboxStorage">
-              <h1>00 Boucle 0 - correction</h1>
+              <h1>08 Algo cashier - correction</h1>
             </div>
             <a href="../index.html" class="button">Retour à l'exercice</a>
           </div>
-          <div>
-            <p>Manipuler des tableaux</p>
-          </div>
         </div>
-        <div class="exerciceDevToolOnly">
-          <p>La correction se trouve dans la console du navigateur.</p>
-          <p>Clique droit > inspecter > console</p>
-        </div>
+        <ul class="exerciceList">
+          <li>
+            <section class="exercice">
+              <h2 class="exerciceTitle">Correction</h2>
+              <div class="exerciceboxStorage">
+                <div class="cashier">
+                  <div class="inputboxStorage">
+                    <label for="amount">Montant à rendre</label>
+                    <input type="number" name="amount" id="amount" />
+                  </div>
+                  <button id="cashierButton" class="button">Calculer</button>
+                  <div id="cashierDetail"></div>
+                </div>
+              </div>
+            </section>
+          </li>
+        </ul>
       </article>
     </main>
     <script src="./script.js"></script>

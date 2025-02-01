@@ -1,0 +1,104 @@
+.appBody {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.appHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.appAuthor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+}
+
+.appAuthor > a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+
+.appAuthor > a:hover > span {
+  border-bottom: 1px solid black;
+}
+
+.appAuthor > a > span {
+  margin-right: 6px;
+}
+
+.appTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.appSections {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.appSectionsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px 24px;
+  border-radius: 3px;
+  background-color: #fcfcfc;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+.appSectionsItem > p {
+  color: #5d5d5d;
+}
+
+.appSectionsItem > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0;
+  list-style: none;
+}
+
+.appSectionsItem > ul a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+
+.appSectionsItem > ul a:hover {
+  border-bottom: 1px solid black;
+}
+
+.appExerciceHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 40px;
+}
+
+.appExerciceHeader > svg {
+  width: 18px;
+  height: 18px;
+}
+
+.appExerciceHeader > a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+
+.appExerciceHeader > a:hover {
+  border-bottom: 1px solid black;
+}
