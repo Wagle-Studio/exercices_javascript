@@ -1,0 +1,15 @@
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.articleContent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.colorfull {
+  color: green;
+}
