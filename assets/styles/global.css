@@ -11,7 +11,7 @@
 body {
   max-width: 1280px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 h1,
@@ -33,6 +33,29 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+}
+
+.appHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 40px;
+}
+
+.appHeader > svg {
+  width: 18px;
+  height: 18px;
+}
+
+.appHeader > a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid transparent;
+}
+
+.appHeader > a:hover {
+  border-bottom: 1px solid black;
 }
 
 .button {
