@@ -1,0 +1,60 @@
+.exercicePlayground {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.exerciceHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exerciceToolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.exerciceToolbarLeftboxStorage {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.exerciceDevToolOnly {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exerciceDevToolOnly > p {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.exerciceList {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.exercice {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.exerciceboxStorage {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 3px;
+}
