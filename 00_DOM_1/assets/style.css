@@ -1,0 +1,28 @@
+.fixedNavbarContainer {
+  width: 500px;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+.fixedNavbarContainer:last-of-type {
+  height: 2000px;
+}
+
+.fixedNavbar {
+  z-index: 1000;
+  width: 500px;
+  height: 60px;
+}
+
+.fixedNavbarOne {
+  background-color: rgb(99, 29, 102);
+}
+
+.fixedNavbarTwo {
+  background-color: rgb(29, 55, 102);
+}
+
+.fixedNavbarThree {
+  background-color: rgb(29, 102, 34);
+}
