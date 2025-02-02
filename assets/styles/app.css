@@ -41,6 +41,30 @@
   gap: 12px;
 }
 
+.appGit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  padding-right: 18px;
+  margin-left: auto;
+  border: 1px solid #5d5d5d;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.appGit > svg {
+  padding: 4px;
+  background-color: #fcfcfc;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.appGit > p {
+  padding-left: 4px;
+  font-size: 14px;
+}
+
 .appSections {
   display: flex;
   flex-direction: column;
